@@ -8,16 +8,16 @@ Making predictions and inferences are important application areas of statistics.
 I hope to take this opportunity to really understand how the complex models come to be as they are today.
 I'd like to focus on LLMs and other models related to prediction.
 By seeing how statistics has developed in the past, in our future work and research, 
-we may become more ingenous and adventurous by continuing the progress.
+we may become more ingenious and adventurous by continuing the progress.
 To be presented as a booklet (or a webpage) towards an audience with a strong mathematical foundation
 
 By Week 5:
 - Do background reading on how statistical and ML prediction methods developed over time [preparation]
-- Make a list of the important models and events to focus on, in chronomoloigcial order [prelimiary content organization]
+- Make a list of the important models and events to focus on, in chronological order [preliminary content organization]
 (e.x. Random Forests, RNNs, and transformers)
 - Narrow the list down by selecting the most important ones [better focus] 
 - Identify key comparisons to be made between new and old approaches [comparative lens]
-- Gathering materials, notes, and exmaples for explaining how these models evolved
+- Gathering materials, notes, and examples for explaining how these models evolved
 
 
 By Week 7:

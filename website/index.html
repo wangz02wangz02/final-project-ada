@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HISTORY.LOG — A Manual of Statistical Learning</title>
+  <meta name="description" content="Vintage-terminal walk through the history of AI: 15 chapters, paper citations, click-for-proof math, hands-on demos." />
+
+  <!-- Fonts: VT323 for headers, IBM Plex Mono for body -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=VT323&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- MathJax -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['\\(', '\\)']],
+        displayMath: [['\\[', '\\]']],
+        processEscapes: true,
+        packages: { '[+]': ['ams', 'cases'] }
+      },
+      svg: { fontCache: 'global' },
+      options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'] }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" defer></script>
+</head>
+<body>
+
+  <div class="book">
+
+    <!-- ============ SPINE / TOC ============ -->
+    <aside class="spine">
+      <div class="spine-head">
+        <div class="brand">HISTORY.LOG</div>
+        <div class="subtitle">a manual of statistical learning</div>
+        <div class="prompt">/usr/book&gt; ls<span class="cursor"></span></div>
+      </div>
+      <nav id="toc"><!-- injected --></nav>
+    </aside>
+
+    <!-- ============ PAGES ============ -->
+    <main class="pages" id="pages">
+
+      <!-- Page 0: cover -->
+      <section class="page cover" data-id="__cover">
+        <div class="boot">
+          <span class="line">&gt; BOOT &nbsp;[ok]</span>
+          <span class="line">&gt; LOAD history.log ... <span style="color:var(--green)">done</span></span>
+          <span class="line">&gt; INDEX 15 chapters · 5 eras · 1956 → present</span>
+          <span class="line">&gt; READY.</span>
+          <span class="line">&nbsp;</span>
+        </div>
+        <h1 class="brand-big">From a single line<br/>to a <em>language model</em>.</h1>
+        <p class="tagline">
+          A vintage-terminal walk through the history of statistical learning —
+          fifteen chapters of mathematics, code you can read, and demonstrations
+          you can run.
+        </p>
+        <div class="startup">press &nbsp;<b style="color:var(--amber)">→</b>&nbsp; or click a chapter in the spine to begin</div>
+      </section>
+
+      <!-- chapters injected here -->
+    </main>
+
+    <!-- ============ FOOTER CONTROL BAR ============ -->
+    <footer class="controls">
+      <div class="left">
+        <button class="nav-btn" id="prevBtn">◂ PREV</button>
+        <span class="hint">←</span>
+      </div>
+      <div class="pager" id="pager">— · —</div>
+      <div class="right">
+        <span class="hint">→</span>
+        <button class="nav-btn" id="nextBtn">NEXT ▸</button>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="data.js"></script>
+  <script src="interactives.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
